@@ -1,0 +1,13 @@
+"use strict";
+let a = "This is 1st string";
+let b = 7;
+let c = true;
+let d = BigInt(1000000000000000) + BigInt(1000000000000000);
+let e = 'Any Data Type';
+let f;
+let g = 'Its an unknown datatype';
+let h;
+let i = Symbol("I'm a baddie symbol@#$");
+let j = "\n and this is a second string";
+console.log(a, b, c, d, e, g, h, i);
+console.log(`${a} ${j}`);

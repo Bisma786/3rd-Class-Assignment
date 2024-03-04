@@ -1,0 +1,12 @@
+let a :string="This is 1st string";
+let b :number=7;
+let c :boolean=true;
+let d: bigint= BigInt(1000000000000000)+BigInt(1000000000000000);
+let e:any='Any Data Type';
+let f:null;
+let g:unknown='Its an unknown datatype';
+let h:undefined;
+let i=Symbol("I'm a baddie symbol@#$");
+let j:string="\n and this is a second string";
+console.log(a,b,c,d,e,g,h,i);
+console.log(`${a} ${j}`);
